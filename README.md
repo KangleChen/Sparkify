@@ -23,14 +23,14 @@ In this project, the process of a comprehensive implementation of data science k
 
 ## File Descriptions
 
-1. File `Sparkify_python` and `Sparkify_spark` contains the scripts using pandas and spark. 
-2. Directory `data` contains the origin data `mini_sparkify_event_data.json` and the dataframe with generated features `data_ubc.json` 
+File `Sparkify` contains the pyspark scripts. 
+The dataset is not loaded because it is too big. You can easily find it by google 'mini_sparkify_event_data.json'. 
 
 ## Results and Discussion
 
-Through data processing and feature generating, an accurate machine leanring model has been trained. The model has demonstrated that most users churned the payment after using the service for 1500 hours ~ 2500 hours. Coupon and discounts for users in this period might be effective, which certainly still requires validation from for example A/B test. 
+Through data processing and feature generating, an accurate machine leanring model has been trained. The model has demonstrated that most users churned the payment after using the service for 1000 hours ~ 2000 hours. Coupon and discounts for users in this period might be effective, which certainly still requires validation from for example A/B test. 
 
-Due to the restriction of computation power, `GridSearchCV` here is only to demonstrate the pipeline to employ it rather than to provide optimized trained results. 
+Due to the restriction of computation power, `CrossValidator` and `paramGrid` here are only to demonstrate the pipeline to employ it rather than to provide optimized trained results. 
 
 Finally, since the dataset is not large, Spark has actually not shown its advantage over python and pandas. A further task is to employ the model in aws with larger data. 
 
