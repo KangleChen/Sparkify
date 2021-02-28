@@ -1,6 +1,9 @@
 # Capstone Project: Spark Project
 Project of  Udacity Data Scientist Nanodegree Program
 
+See here for more detailed description: 
+https://kangle-chen1103.medium.com/predicting-churn-rates-using-pyspark-54aa757bd408
+
 ### Table of Contents
 - [Capstone Project: Spark Project](#capstone-project-spark-project) 
   - [Table of Contents](#table-of-contents)
