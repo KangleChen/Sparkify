@@ -27,7 +27,7 @@ In this project, the process of a comprehensive implementation of data science k
 ## File Descriptions
 
 File `Sparkify` contains the pyspark scripts. 
-The dataset is not loaded because it is too big. You can easily find it by google 'mini_sparkify_event_data.json'. 
+File `Sparkify_IBMWatson` contains the pyspark scripts employed on IBM Watson. 
 
 ## Results and Discussion
 
